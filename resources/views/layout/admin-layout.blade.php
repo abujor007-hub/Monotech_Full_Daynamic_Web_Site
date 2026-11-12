@@ -128,8 +128,12 @@
                         </a>
 
 
-                        <a href="#" class="d-block text-dark text-decoration-none p-2">
-                            Categories
+                        <a href="{{ route('category') }}"
+                            class="d-block text-dark rounded p-2 mb-2 text-decoration-none">
+
+                     
+                            Category
+
                         </a>
 
                         <a href="{{ route('product.outofstock') }}" class="d-block text-dark text-decoration-none p-2">
@@ -201,53 +205,6 @@
 
                 </a>
 
-
-                <!-- Customers -->
-                <details class="mb-2">
-
-                    <summary class="p-2">
-                        <i class="bi bi-people me-2"></i>
-                        Customers
-                    </summary>
-
-                    <div class="ps-4 mt-2">
-
-                        <a href="#" class="d-block text-dark text-decoration-none p-2">
-                            All Customers
-                        </a>
-
-                        <a href="#" class="d-block text-dark text-decoration-none p-2">
-                            Add Customer
-                        </a>
-
-                    </div>
-                </details>
-
-
-                <!-- Reports -->
-                <details class="mb-2">
-
-                    <summary class="p-2">
-                        <i class="bi bi-bar-chart me-2"></i>
-                        Reports
-                    </summary>
-
-                    <div class="ps-4 mt-2">
-
-                        <a href="#" class="d-block text-dark text-decoration-none p-2">
-                            Sales Report
-                        </a>
-
-                        <a href="#" class="d-block text-dark text-decoration-none p-2">
-                            Order Report
-                        </a>
-
-                        <a href="#" class="d-block text-dark text-decoration-none p-2">
-                            Product Report
-                        </a>
-
-                    </div>
-                </details>
 
 
                 <!-- Settings -->
